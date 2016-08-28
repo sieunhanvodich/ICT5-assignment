@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	background:url(../images/banner.jpeg) no-repeat right;
 	width:100%;
 	background-size:cover;
-	min-height:750px;
+	min-height:600px;
 	display:block;
 	position:relative;
 }
