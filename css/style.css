@@ -1927,8 +1927,8 @@ div#bs-example-navbar-collapse-1 {
 .contact-head h2 {
     font-size: 2.5em;
 }
-.contact-head p {
-    width: 95%;
+.contact-head h3 {
+    text-align: center;
 }
 .contact-grids {
     margin: 3em 0 0;
