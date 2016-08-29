@@ -26,83 +26,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
- <div class="header head1">
-	<div class="container">
-		<div class="head-top">
-			<div class="logo">
-				<a href="index.html"><img src="images/bo.png" alt="" title="Academic"></a>
-			</div>
-			<div class="login">
-				<ul class="nav-login">
-					<li><a href="#" data-toggle="modal" data-target="#myModal1">Login</a></li>
-					<li><a href="#" data-toggle="modal" data-target="#myModal2">Signup</a></li>
-				</ul>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-		<!-- login -->
-			<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-							<div class="login-grids">
-							
-									<div class="login-right">
-										<form action="#" method="post">
-											<h3>Signin with your account </h3>
-											<input type="text" value="Enter your mobile number or Email" name=" Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your mobile number or Email';}" required="">	
-											<input type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
-											<h4><a href="#">Forgot password</a> / <a href="#">Create new password</a></h4>
-											<div class="single-bottom">
-												<input type="checkbox"  id="brand" value="">
-												<label for="brand"><span></span>Remember Me.</label>
-											</div>
-											<input type="submit" value="SIGNIN" >
-										</form>
-									</div>
-									
-								<p>By logging in you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span></p>
-							</div>
-						</div>
-					</div>
+<div class="main-content">
+ <div class="header">
+		<!-- <div class="banner">
+			<div class="container">
+				<div class="banner-text">
+					<h2>Academic</h2>
+					<p>Sed ut perspiciatis unde </p>
 				</div>
+				<p class="banner-text1">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system</p>
 			</div>
-			<!-- //login -->
-			<!-- signup -->
-			<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content modal-info">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-						</div>
-						<div class="modal-body modal-spa">
-							<div class="login-grids">
-							
-									<div class="login-right">
-										<form action="#" method="post">
-											<h3>Create your account </h3>
-											<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-											<input type="text" value="Mobile number" name="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
-											<input type="text" value="Email id" name="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
-											<input type="password" value="Password" name="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
-											
-											<input type="submit" value="CREATE ACCOUNT" >
-										</form>
-									</div>
-								
-								<p>By logging in you agree to our <span>Terms and Conditions</span> and <span>Privacy Policy</span></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- //signup -->
-	
-			<div class="nav-top">
+		</div> -->
+		<div class="nav-top">
 			<div class="container">
 				<div class="nav1">
 					<div class="navbar1">
@@ -121,19 +56,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<ul class="nav navbar-nav cl-effect-8">
 								<li ><a  href="index.html">Home </a></li>
 								<li><a class="active" href="about.html">About</a></li>
-								<li><a href="gallery.html">Portfolio</a></li>
-								<li><a href="typo.html">Short Codes</a></li>
+								<li><a href="gallery.html">Research Topics</a></li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#">Research Project
+									<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">SWARMS Project</a></li>
+										<li><a href="#">ARCHIVES Project</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" href="#">News and Events
+									<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">News</a></li>
+										<li><a href="#">Seminars</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Members</a></li>
 								<li><a href="contact.html">Contact</a></li>	
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div>
 					<!-- start search-->
-					<ul class="social-ic">
+					<!-- <ul class="social-ic">
 						<li><a href="#"><i></i></a></li>
 						<li><a href="#"><i class="ic"></i></a></li>
 						<li><a href="#"><i class="ic1"></i></a></li>
 						<li><a href="#"><i class="ic2"></i></a></li>
-					</ul>
+					</ul> -->
 					<div class="clearfix"></div>
 				</div> 
 			</div> 
@@ -141,257 +92,44 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div> 
 <!-- about -->
 <div class="about">
-				<div class="container">
-				<div class="about-head">
-					<h2>About</h2>
-					<p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-				</div>
-					<div class="about-grids">
-					<div class="col-md-5 about-grid1">
-						
-							<h3 >Nullam velit metus</h3>
-							<div class="about-img">
-								<img src="images/aa.jpg" class="img-responsive" alt="">
-							</div>
-							<h4>Nullam velit metus</h4>
-								<p>Praesent vestibulum aenean noummy gnis dis parturient montes ascetur ridiculus mus. Null dui. Fusce feugiat malesuada odio Praesent vestibulum aenean noummy gnis dis </p>
-							
-						</div>
-						<div class="col-md-7 about-grid">
-							<h3>Lorem ipsum dolor sit amet</h3>
-							<h5>Nullam velit metus tristique id purus eget consequat congue loreml orem ipsum dolor sit amet consectetur adipiscing elit. Praesent vestibulum aenean noummy endrerit mauris.</h5>
-							<p>Nullam velit metus tristique id purus eget consequat congue loreml orem ipsum dolor sit amet consectetur adipiscing elit. Praesent vesti Cum sociis natoque penatibus et magnis dis parturient montes ascetur ridiculus .</p>
-							<div class="about-top">
-								<div class="col-md-6 about-left">
-									<h4>Donec vel</h4>
-									<p>Mauris volutpat mi eu justo mollis rhoncus. Donec vel interdum magna atempus erat.</p>
-								</div>
-								<div class="col-md-6 about-right">
-								<h4>Cum sociis</h4>
-									<p>Mauris volutpat mi eu justo mollis rhoncus. Donec vel interdum magna atempus erat.</p>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-							<div class="about-top">
-								<div class="col-md-6 about-left">
-									<h4>Lorem Ipsum</h4>
-									<p>Mauris volutpat mi eu justo mollis rhoncus. Donec vel interdum magna atempus erat.</p>
-								</div>
-								<div class="col-md-6 about-right">
-								<h4>Donec vel</h4>
-									<p>Mauris volutpat mi eu justo mollis rhoncus. Donec vel interdum magna atempus erat.</p>
-								</div>
-								<div class="clearfix"></div>
-							</div>
-						</div>
-						
-						<div class="clearfix"></div>
-					</div>
-				</div>
-			</div>
-<!---->
-<div class="team">
 	<div class="container">
-		<h3 >Our Teachers</h3>
-		<div class="col-md-3 bottom-grid ">
-			<div class="btm-right">
-				<img src="images/tt1.png" alt=" ">
-					<div class="captn">
-						<div class="captn1">
-							<h4>Victoria</h4>
-							
-						</div>
-						<div class="captn2">
-							<a href="#" class="icon_1"></a>
-							<a href="#" class="icon_2"></a>
-							<a href="#" class="icon_3"></a>
-							
-						</div>
-					</div>
+	<div class="about-head">
+		<h2>About</h2>
+		<p> ICTLab is a joint international ICT research laboratory between USTH and Vietnamese and French partners. It involves researchers coming from USTH, IOIT (Institute of Information Technology, Hanoï), IRD (Institut de Recherche pour le Développement) and the University of La Rochelle, France.</p>
+	</div>
+		<div class="about-grids">
+			<div class="col-md-12 about-grid1">
+			
+				<h3 >History</h3>
+				<p>ICTLab was created on December 1st, 2014. Its creation was supported (directly or indirectly) by USTH, the French Embassy in Vietnam, 13 French high education institutes and universities (USTH Consortium), and the ADB (Asian Development Bank).</p>
+				<br>
+				<br>
+			</div>	
+			<div class="col-md-12 about-grid">
+				<h3>Facilities</h3>
+				<p>The laboratory is located in the heart of the VAST (Vietnamese Academy of Science and Technology) complex, in the city center of Hano, Vietnam.</p>
+				<p>Hereafter a few pictures of our facilities.</p>
+				<div class="about-img">
+					<img src="images/aa.jpg" class="img-responsive" alt="">
+				</div>
+				<div class="clearfix"></div>
 			</div>
-		</div>
-		<div class="col-md-3 bottom-grid ">
-			<div class="btm-right">
-				<img src="images/tt2.png" alt=" ">
-					<div class="captn">
-						<div class="captn1">
-							<h4>Adley</h4>
-							
-						</div>
-						<div class="captn2">
-							<a href="#" class="icon_1"></a>
-							<a href="#" class="icon_2"></a>
-							<a href="#" class="icon_3"></a>
-								
-						</div>
-					</div>
-			</div>
-		</div>
-		<div class="col-md-3 bottom-grid ">
-			<div class="btm-right">
-				<img src="images/tt3.png" alt=" ">
-					<div class="captn">
-						<div class="captn1">
-							<h4>Immortal</h4>
-							
-						</div>
-						<div class="captn2">
-							<a href="#" class="icon_1"></a>
-							<a href="#" class="icon_2"></a>
-							<a href="#" class="icon_3"></a>
-								
-						</div>
-					</div>
-			</div>
-		</div>
-		<div class="col-md-3 bottom-grid ">
-			<div class="btm-right">
-				<img src="images/tt4.png" alt=" ">
-					<div class="captn">
-						<div class="captn1">
-							<h4>Warlike</h4>
-							
-						</div>
-						<div class="captn2">
-							<a href="#" class="icon_1"></a>
-							<a href="#" class="icon_2"></a>
-							<a href="#" class="icon_3"></a>
-								
-						</div>
-					</div>
-			</div>
-		</div>
 		<div class="clearfix"></div>
-	</div>
-</div>	
-<div class="test">
-		<div class="container">
-		<h3>Testimonials</h3>
-			<div  class=" test-grid-1" >
-				<div class="col-md-6 test-wrapper">
-					<img src="images/te.jpg" alt="" class="img-responsive">
-					<div class="test-grid">
-					<div class="test-gr">
-						<h4>Andery</h4>
-						<span>Ceo</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="col-md-6 test-wrapper">
-					<img src="images/te1.jpg" alt="" class="img-responsive">
-					<div class="test-grid">
-					<div class="test-gr">
-						<h4>Hailey</h4>
-						<span> Principal</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				
-			<div class="clearfix"> </div>
-			</div>
-			<div  class=" test-grid-2" >
-				<div class="col-md-6 test-wrapper">
-					<img src="images/te2.jpg" alt="" class="img-responsive">
-					<div class="test-grid">
-					<div class="test-gr">
-						<h4>Quincy</h4>
-						<span>Manager</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<div class="col-md-6 test-wrapper">
-					<img src="images/te3.jpg" alt="" class="img-responsive">
-					<div class="test-grid">
-					<div class="test-gr">
-						<h4>Barb</h4>
-						<span>professor</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				
-			<div class="clearfix"> </div>
-			</div>
 		</div>
 	</div>
-
-<!---->
-<div class="content-bottom">
-	<h1>Gallery</h1>
-		<div class="content-in">
-            <div class="port effect-1">
-                <div class="image-box">
-                   <img src="images/fi.jpg" alt="" class="img-responsive">
-               </div>
-                <div class="text-desc">
-                    <h6>Education</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>
-                </div>
-           </div>
-         </div>
-		<div class="content-in">
-            <div class="port effect-1">
-                <div class="image-box">
-                    <img src="images/fi1.jpg" alt="" class="img-responsive">
-                </div>
-				<div class="text-desc">
-                    <h6>Education</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>	
-                </div>
-            </div>
-        </div>
-		<div class="content-in">
-            <div class="port effect-1">
-                <div class="image-box">
-                    <img src="images/fi3.jpg" alt="" class="img-responsive">
-                </div>
-				<div class="text-desc">
-					<h6>Education</h6>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>   	
-				</div>
-			</div>
-        </div>
-		<div class="content-in">
-            <div class="port effect-1">
-                <div class="image-box">
-                    <img src="images/fi2.jpg" alt="" class="img-responsive">
-                </div>
-                <div class="text-desc">
-                    <h6>Education</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>	
-                </div>
-            </div>
-        </div>
-		<div class="content-in">
-            <div class="port effect-1">
-                <div class="image-box">
-                    <img src="images/fi4.jpg" alt="" class="img-responsive">
-                </div>
-                <div class="text-desc">
-                    <h6>Education</h6>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor .</p>	
-                </div>
-            </div>
-        </div>
-        <div class="clearfix"> </div>
 </div>
 <!---->
 <!--footer-->
 <div class="footer">
 	<div class="container">
+		<div class="col-md-6 footer-right">
+			<h3>Contact Us</h3>
+			<ul class="con-icons">
+				<li><a href="mailto:info@example.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>phung-thi-thanh.tu@usth.edu.vn</a></li>
+			</ul>
+		</div>
+
 		<div class="col-md-6 footer-left">
-			<h3>Information</h3>
-			<p class="para">At vero eos et accusamus et iusto odio dignissimos
-			ducimus qui blanditiis praesentium voluptatum deleniti at
-			que corrupti quos dolores et quas molestias excepturi sint
-			occaecati cupiditate non provident, similique sunt.</p>
 			<h3>Newsletter<label></label></h3>
 			<form action="#" method="post">
 				<input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
@@ -399,16 +137,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<input type="submit" value="Submit">
 			</form>
 		</div>
-		<div class="col-md-6 footer-right">
-			<h3>Contact Us</h3>
-			<ul class="con-icons">
-				<li><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>+123 456 7890</li>
-				<li><a href="mailto:info@example.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>info@example.com</a></li>
-			</ul>
-			<p class="copy-right">© 2016 Academic. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-		</div>
 		<div class="clearfix"></div>
 	</div>
+</div>
 </div>
 <!--//footer-->
 </body>
