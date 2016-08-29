@@ -95,34 +95,7 @@ ul.nav-login li a:hover {
     padding: 5%;
 	border-color:#fff;
 }
-.social-ic li a i:hover {
-	background: #B7112A url(../images/img-sprite.png)no-repeat -2px 1px;
-    border-color: #B7112A;
-}
-.social-ic li a i.ic {
-	background: url(../images/img-sprite.png)no-repeat -78px 1px;
-}
-.social-ic li a i.ic:hover {
-	background: #B7112A url(../images/img-sprite.png)no-repeat -78px 1px;
-}
-.social-ic li a i.ic1 {
-	background: url(../images/img-sprite.png)no-repeat -147px 1px;
-}
-.social-ic li a i.ic1:hover {
-	background: #B7112A url(../images/img-sprite.png)no-repeat -147px 1px;
-}
-.social-ic li a i.ic2 {
-	background: url(../images/img-sprite.png)no-repeat -231px 1px;
-}
-.social-ic li a i.ic2:hover {
-	background: #B7112A url(../images/img-sprite.png)no-repeat -231px 1px;
-}
-.social-ic li a i.ic3 {
-	background: url(../images/img-sprite.png)no-repeat -307px 1px;
-}
-.social-ic li a i.ic3:hover {
-	background: #B7112A url(../images/img-sprite.png)no-repeat -307px 1px;
-}
+
 /*----*/
 .nav-top{
 	position:absolute;
@@ -196,66 +169,10 @@ transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-o-transition: 0.5s all;
 	-moz-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-/*-- w3layouts --*/ 
+	-ms-transition: 0.5s all; 
 }
-/*-- login --*/
 
-.login-right h3{
-    color: #00959F;
-    font-size: 1.5em;
-    font-family: 'Montserrat', sans-serif;
-}
-.login-right input[type="text"] ,.login-right input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    font-weight: normal;
-    background: none;
-    border: 1px solid #E6E4E4;
-    color: #D2D1D1;
-    outline: none;
-    font-size: 14px;
-    margin-top: 20px;
-}
-.login-right h4{
-	color:#00959F;
-	font-size:12px;
-	margin:20px 0;
-}
-.login-right h4 a{
-	color:#00959F;
-	text-decoration:none;
-}
-.login-right h4 a:hover{
-	color:#A9A8A8;
-}
-.login-right input[type="submit"] {
-  background:#B7112A;
-  color: #fff;
-  font-size:1.2em;
-  border: none;
-  width: 100%;
-  outline: none;
-  -webkit-appearance:none;
-  padding:7px 15px;
-  transition: 0.5s all;
-  -webkit-transition: 0.5s all;
-  -moz-transition: 0.5s all;
-  -o-transition: 0.5s all;
-	margin-top:20px;
-}
-.login-right input[type="submit"]:hover {
-	background:#00959F;
-}
-/*-- agileits --*/ 
-.login-grids p {
-    font-size: 12px;
-    margin-top: 25px;
-	color:#A9A8A8;
-}
-.login-grids p span{
-	color:#48cfc1;	
-}
+
 .modal-body {
     padding: 2em;
 }
@@ -434,7 +351,7 @@ transition: 0.5s all;
     color: #fff;
     letter-spacing: 1px;
     outline: none;
-    background: #00959F;
+    background: #5cb85c;
     transition: 0.5s all ease;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
@@ -827,14 +744,14 @@ background:#E8E8E8;
 	outline: none;
     padding: 11px 0;
     border: none;
-    background: #00959F;
+    background: #5cb85c;
     font-size: 1em;
     color: #fff;
     width: 100%;
     margin: 1.5em 0 0 0em;
 }
 .contact-grids1 input[type="submit"]:hover{
-	background:#000;
+	background:#B7112A;
 	    transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -851,7 +768,7 @@ background:#E8E8E8;
 }
 .con-grid{
 	padding:5.7em 3em;
-	background:#B7112A;
+	background:green;
 }
 /*-- //contact --*/
 /*--gallery--*/
@@ -1336,7 +1253,7 @@ background:#E8E8E8;
     border: 2px solid #B7112A;
 }
 .test-grid p {
-    background: #00959F;
+    background: #5cb85c;
     font-size: 1em;
     line-height: 2em;
     padding: 2em;
@@ -1502,7 +1419,7 @@ ul.nav.nav-pills {
 }
 @media(max-width:991px){
 .header {
-    min-height: 650px;
+    min-height: 350px;
 }
 .navbar-default .navbar-nav > li > a {
     padding: 0.6em 0.6em;
@@ -2260,4 +2177,6 @@ div#bs-example-navbar-collapse-1 {
     width: 100%;
     font-size: 0.9em;
 }
+.more{
+	margin-left: 500px;
 }
