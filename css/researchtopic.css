@@ -77,7 +77,7 @@ hr.cutter:after {
 }
 
 .content-footer{
-    background-color: #008000;
+    background-color: #00b300;
     padding: 1.2px 10px 10px 10px;
     margin:0;
 }
@@ -89,17 +89,18 @@ hr.cutter:after {
     letter-spacing: 1px;
 }
 
-.member-block{
-    width: 100%;
-    /*float: right;*/
-    margin-top: 5px;
-    margin-bottom: 20px;
-    background: #f2f2f2;
-    padding:2em;
+.navbarleft{
+    background-color: #00cc44; 
     border: 2px solid #00b300;
 }
-.member-block > h4{
-  color: #00b300;
+
+.recent-new{
+    color:white;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
 }
 
+.border-bottom{
+    border-bottom: 6px solid #004d1a; 
+    background-color: #004d1a;
 
