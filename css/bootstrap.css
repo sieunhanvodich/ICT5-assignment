@@ -45,6 +45,10 @@ template {
 }
 a {
   background-color: transparent;
+  color: red;
+}
+a:link {
+    color: red;
 }
 a:active,
 a:hover {
