@@ -396,12 +396,13 @@ ul.con-icons{
    padding:2em;
 }
 .content-top2:hover {
-    background:#00959F;
+    background:#4dff4d;
 	transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -ms-transition: 0.5s all;
+    border-radius: 12px;
 }
 .content-top2 h4{
    color:#fff;
