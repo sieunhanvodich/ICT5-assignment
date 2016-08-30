@@ -6,8 +6,6 @@
     background: #f2f2f2;
     padding:2em;
     border: 2px solid #00b300;
-
-    
 }
 
 .list-body{
@@ -43,6 +41,7 @@
 
 .content-body h4{
     font-size: 1.4em;
+    color: #00b300;
 }
 
 .content-body {
@@ -80,6 +79,7 @@ hr.cutter:after {
 .content-footer{
     background-color: #008000;
     padding: 1.2px 10px 10px 10px;
+    margin:0;
 }
 
 .content-copyright{
@@ -88,4 +88,15 @@ hr.cutter:after {
     margin-top: 2em;
     letter-spacing: 1px;
 }
-
+.member-block{
+    width: 100%;
+    /*float: right;*/
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f2f2f2;
+    padding:2em;
+    border: 2px solid #00b300;
+}
+.member-block > h4{
+  color: #00b300;
+}
