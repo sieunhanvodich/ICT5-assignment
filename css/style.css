@@ -687,14 +687,18 @@ background:#E8E8E8;
 	margin:3em 0;
 }
 .con-ic{
-    float:right;
+  margin-left: 10%;
 	width:70%;
+  font-size:1.1em;
+  color:#fff;
+  line-height:1.5em;
+  letter-spacing:1px;
 }
 .contact-grid1 i {
 	float: left;
-    font-size:2.5em;
-    color: #fff;
-    line-height: 1.5em;
+  font-size:2.5em;
+  color: #fff;
+  line-height: 1.5em;
 }
 
 .contact-grid1 p{
@@ -764,15 +768,16 @@ background:#E8E8E8;
 }
 .map iframe{
 	width:100%;
-	min-height:400px;
+	min-height:550px;
 	border:none;
+  margin-bottom: 10px;
 }
 .map{
 	padding:0;
 }
 .con-grid{
 	padding:5.7em 3em;
-	background:green;
+	background:#00cc44;
 }
 /*-- //contact --*/
 /*--gallery--*/
