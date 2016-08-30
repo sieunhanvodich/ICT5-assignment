@@ -36,10 +36,10 @@ h1,h2,h3,h4,h5,h6,label,p{
 }
 /*--banner--*/
 .header{
-	background:url(../images/banner.jpeg) no-repeat right;
+	/*background:url(../images/banner.jpeg) no-repeat right;*/
 	width:100%;
 	background-size:cover;
-	min-height:450px;
+	min-height:200px;
 	display:block;
 	position:relative;
 }
@@ -47,7 +47,11 @@ h1,h2,h3,h4,h5,h6,label,p{
 	min-height:350px;
 }
 .logo {
-    float: left;
+	margin-left: 19%;
+	margin-top: 30px;
+}
+.co-operate{
+	margin-left: 350px;
 }
 /*.login {
     float: right;
@@ -1172,7 +1176,7 @@ background:#E8E8E8;
 /*-- //team --*/
 /**causes**/
 .about-head h2{
-	    font-size: 3em;
+	font-size: 3em;
     font-family: 'Montserrat', sans-serif;
 	color: #000;
 	text-align: center;
@@ -1202,8 +1206,9 @@ background:#E8E8E8;
 }
 .about-grid h3,.about-grid1 h3{
     font-size: 2.5em;
-    color: #B7112A;
+    color: green;
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 }
 .about-grid h4,.about-grid1 h4{
     font-size: 1.8em;
@@ -1226,8 +1231,10 @@ background:#E8E8E8;
 .about-top {
     margin-top: 2em;
 }
-.about-grids {
+.about-grids,.about-grids1 {
     margin-top: 5em;
+    width: 50%;
+    margin-left: 25%;
 }
 .about-img {
     margin: 2em 0;
