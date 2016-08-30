@@ -87,12 +87,5 @@ hr.cutter:after {
     letter-spacing: 1px;
 }
 
-:hover {
-    background:#00959F;
-	transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -ms-transition: 0.5s all;
-}
+
 
