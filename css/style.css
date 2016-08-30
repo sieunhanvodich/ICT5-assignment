@@ -1305,10 +1305,10 @@ background:#E8E8E8;
     font-size: 3em;
     font-family: 'Montserrat', sans-serif;
     color: #000;
-    text-align: center;
-    margin: 0 0 1.8em;
+    /*text-align: center;*/
+    margin: 0 0 20px;
 }
-.test h3:after {
+/*.test h3:after {
     display: inline-block;
     width: 100px;
     height: 2px;
@@ -1316,7 +1316,7 @@ background:#E8E8E8;
     vertical-align: middle;
     margin-left: 1%;
 	content:"";
-}
+}*/
 /*--//test--*/
 /*--typo--*/
 .typo-head h3 {
