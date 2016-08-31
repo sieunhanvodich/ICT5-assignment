@@ -45,6 +45,10 @@ template {
 }
 a {
   background-color: transparent;
+  color: red;
+}
+a:link {
+    color: red;
 }
 a:active,
 a:hover {
@@ -228,6 +232,7 @@ th {
   }
   img {
     max-width: 100% !important;
+    max-height: 100%;
   }
   p,
   h2,
@@ -6582,3 +6587,7 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+.img-lul {
+  max-height: 100%;
+  max-width: 100%;
+}

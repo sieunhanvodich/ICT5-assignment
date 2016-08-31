@@ -65,6 +65,10 @@
     letter-spacing: 1px;
 }
 
+.content-body ul{
+  margin-left: 20px;
+}
+
 hr.cutter { 
   border-top: 1px dashed #8c8b8b; 
 } 
@@ -143,4 +147,8 @@ hr.cutter:after {
 .content-body a{
   text-decoration: none;
   color:#00b300;
+}
+
+.dropdown-menu {
+  position: static;
 }
