@@ -97,6 +97,16 @@ hr.cutter:after {
     background-color: #00cc44; 
     border: 2px solid #00b300;
 }
+.navbarleft-index{
+    background-color: #fff; 
+    border: 2px solid #00b300;
+}
+.navbarleft-index h6{
+  color:black;
+}
+.navbarleft-index h2{
+  color: black;
+}
 
 .recent-new{
     color:white;
@@ -116,4 +126,14 @@ hr.cutter:after {
   border-bottom: 6px solid #004d1a; 
   background-color: #004d1a;
 }
+.read-more a {
+  float:right;
+}
 
+.news-block {
+  margin-top: 40px;
+}
+.content-body a{
+  text-decoration: none;
+  color:#00b300;
+}
