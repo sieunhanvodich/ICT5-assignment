@@ -16,7 +16,7 @@
     width: 28%;
     float: left;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .content-body h4{
@@ -99,13 +99,20 @@ hr.cutter:after {
 }
 .navbarleft-index{
     background-color: #fff; 
-    border: 2px solid #00b300;
+    border: solid 1px #00b300; 
+    /*border-left: none;
+    border-right: none;*/
+    border-top: none;
+    padding-top: 3px 3px 3px 3px;
+    background:#f2f2f2;
 }
 .navbarleft-index h6{
   color:black;
+  color:#00b300;
 }
 .navbarleft-index h2{
   color: black;
+  color:#00b300;
 }
 
 .recent-new{
