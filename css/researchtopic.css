@@ -108,3 +108,7 @@ hr.cutter:after {
     border-bottom: 6px solid #004d1a; 
     background-color: #004d1a;
 }
+
+.dropdown-menu {
+  position: static;
+}
