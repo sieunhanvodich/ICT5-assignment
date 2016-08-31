@@ -3,6 +3,18 @@
   background-size:cover;
 }
 
+.header{
+	/*background:url(http://goo.gl/bSHBCW) no-repeat right;*/
+	/*background:url(http://goo.gl/GoGTz7) no-repeat right;*/
+    /*background:url(http://goo.gl/HavSWG) no-repeat right;*/
+    background:url(http://goo.gl/LUZvsA) no-repeat right;
+
+    width:100%;
+	background-size:cover;
+	min-height:200px;
+	display:block;
+	position:relative;
+}
 .content-body{
     width: 70.3%;
     float: right;
