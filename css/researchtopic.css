@@ -1,7 +1,8 @@
 .content{
-  background-image: url(http://goo.gl/kpab4U);
+  background-image: url(http://goo.gl/ppJ4pw);
   background-size:cover;
 }
+
 .content-body{
     width: 70.3%;
     float: right;
@@ -97,8 +98,9 @@ hr.cutter:after {
     letter-spacing: 1px;
 }
 
-.navbarleft{
-    background-color: #00cc44; 
+.navbarleft{ 
+    /*background-color: #00cc44; */
+    background-color: #00e64d; 
     border: 2px solid #00b300;
 }
 .navbarleft-index{
@@ -134,8 +136,8 @@ hr.cutter:after {
   border: 2px solid #00b300;
 }
 .border-bottom{
-  border-bottom: 6px solid #004d1a; 
-  background-color: #004d1a;
+  border: 2px solid #00802b; 
+  background-color: #00802b;
 }
 .read-more a {
   float:right;
